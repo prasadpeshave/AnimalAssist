@@ -62,4 +62,4 @@ Contains all Firebase info and information of apis used
 ## Animal Assist/app/build.gradle:
 Located in the root project directory and its main function is to define the build configurations that will be applied to all the modules in the project. Contains all required dependencies for this app
 
-
+![Screenshot (790)](https://user-images.githubusercontent.com/66573570/137525601-f5cfc68f-6970-4596-aa70-c4ec2cf8322b.png)
