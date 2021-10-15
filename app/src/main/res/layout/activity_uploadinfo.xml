@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UploadinfoActivity"
+    android:background="@drawable/plain">
+
+
+    <ImageView
+        android:id="@+id/select"
+        android:layout_width="0dp"
+        android:layout_height="250dp"
+        android:layout_marginBottom="400dp"
+        android:src="@drawable/ic_baseline_image_24"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <EditText
+        android:id="@+id/animal"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/blupur"
+        android:layout_marginBottom="380dp"
+        android:fontFamily="serif"
+        android:paddingLeft="20dp"
+        android:hint="Type of animal"
+        android:textFontWeight="@android:integer/config_longAnimTime"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+    <AutoCompleteTextView
+        android:id="@+id/injuries"
+        android:layout_width="300dp"
+        android:paddingLeft="20dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="283dp"
+        android:hint="Type of injury"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"></AutoCompleteTextView>
+ <EditText
+        android:id="@+id/urg"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="190dp"
+        android:fontFamily="serif"
+        android:paddingLeft="20dp"
+        android:hint="Urgency"
+        android:textFontWeight="@android:integer/config_longAnimTime"
+        android:textSize="20sp"
+        android:textColor="@color/blupur"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <EditText
+        android:id="@+id/issue"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="240dp"
+        android:fontFamily="serif"
+        android:textColor="@color/blupur"
+        android:paddingLeft="20dp"
+        android:hint="Description"
+        android:textFontWeight="@android:integer/config_longAnimTime"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <EditText
+        android:id="@+id/loc"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="330dp"
+        android:fontFamily="serif"
+        android:paddingLeft="20dp"
+        android:hint="Location"
+        android:textColor="@color/blupur"
+        android:textFontWeight="@android:integer/config_longAnimTime"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <Button
+        android:id="@+id/upload"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="130dp"
+        android:background="@color/blupur"
+        android:fontFamily="serif"
+        android:paddingLeft="20dp"
+        android:text="Upload image"
+        android:textFontWeight="@android:integer/config_longAnimTime"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <Button
+        android:id="@+id/ret"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="75dp"
+        android:background="@color/blupur"
+        android:fontFamily="serif"
+        android:paddingLeft="20dp"
+        android:text="See all posts"
+        android:textFontWeight="@android:integer/config_longAnimTime"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <Button
+        android:id="@+id/check"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:background="@color/blupur"
+        android:fontFamily="serif"
+        android:paddingLeft="20dp"
+        android:text="See similar posts"
+        android:textFontWeight="@android:integer/config_longAnimTime"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

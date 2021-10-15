@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignuporgActivity"
+    android:background="@drawable/logsign">
+
+
+    <EditText
+        android:id="@+id/orgphone"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Contact of the org"
+        android:textSize="25dp"
+        android:fontFamily="serif"
+        android:textColor="@color/black"
+        android:textFontWeight="@android:integer/config_longAnimTime"
+        android:paddingLeft="20dp"
+        android:layout_marginBottom="300dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        />
+
+    <EditText
+        android:id="@+id/orgpasss"
+        android:inputType="textPassword"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:textSize="25dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="serif"
+        android:textColor="@color/black"
+        android:textFontWeight="@android:integer/config_longAnimTime"
+        android:paddingLeft="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/orgphone" />
+
+
+    <Button
+        android:id="@+id/butlogg"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="LOGIN"
+        android:backgroundTint="@color/blupur"
+        android:textSize="20sp"
+        android:fontFamily="serif"
+        android:layout_marginTop="30dp"
+        android:textFontWeight="@android:integer/config_longAnimTime"
+        android:paddingLeft="20dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/orgpasss" />
+    <Button
+        android:id="@+id/butdirlogorg"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Haven't registered? Sign in"
+        android:backgroundTint="@color/blupur"
+        android:textSize="20sp"
+        android:fontFamily="serif"
+        android:layout_marginTop="5dp"
+        android:textFontWeight="@android:integer/config_longAnimTime"
+        android:paddingLeft="20dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/butlogg" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
